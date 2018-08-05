@@ -18,7 +18,7 @@ public class NewTest {
   @BeforeClass
   public void beforeClass() {
 	  
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\farag\\Downloads\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 	  driver = new ChromeDriver();
 	  
   }
