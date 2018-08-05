@@ -20,7 +20,8 @@ public class NewTest {
 	  
 	  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 	  ChromeOptions options= new ChromeOptions();
-	  options.addArguments("--no-startup-window");
+	  chromeOptions.addArguments("--headless");
+	  chromeOptions.addArguments("--disable-gpu");
 	  driver = new ChromeDriver();
 	  
   }
