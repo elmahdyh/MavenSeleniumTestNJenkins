@@ -22,7 +22,7 @@ public class NewTest {
 	  ChromeOptions options= new ChromeOptions();
 	  chromeOptions.addArguments("--headless");
 	  chromeOptions.addArguments("--disable-gpu");
-	  driver = new ChromeDriver();
+	  driver = new ChromeDriver(options);
 	  
   }
 
